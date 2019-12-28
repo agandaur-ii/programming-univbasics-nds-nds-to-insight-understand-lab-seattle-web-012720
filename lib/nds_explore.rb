@@ -9,6 +9,7 @@ end
 
 def print_first_directors_movie_titles
   
+<<<<<<< HEAD
   row_index = 0 
   while row_index < directors_database[0][:movies].length do
     puts directors_database[0][:movies][row_index][:title]  
@@ -18,3 +19,8 @@ def print_first_directors_movie_titles
 end
 
 puts directors_database[0][:movies][0][:title]
+=======
+end
+
+puts pretty_print_nds(nds)
+>>>>>>> 88406f0a09675ae25e7fb792596358a2262c1010
